@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean id="LoginDao" class="com.tracker.dao.LoginDao"></bean>
+	<bean id="BankAccountDao" class="com.tracker.dao.BankAccountDao"></bean>
+	<bean id="CreditCardDao" class="com.tracker.dao.CreditCardDao"></bean>
+	<bean id="TransactionDao" class="com.tracker.dao.TransactionDao"></bean>
+	<bean id="RecurringTransDao" class="com.tracker.dao.RecurringTransDao"></bean>
+	<bean id="RecurringLogDao" class="com.tracker.dao.RecurringLogDao"></bean>
+</beans>
